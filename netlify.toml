@@ -1,0 +1,11 @@
+# Root config: build runs from protfolio_react subfolder
+[build]
+  base = "protfolio_react"
+  command = "npm run build"
+  publish = "dist"
+
+# SPA fallback: serve index.html for all routes (handles direct links & refresh)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
