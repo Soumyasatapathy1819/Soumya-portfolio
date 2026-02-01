@@ -7,7 +7,7 @@ export const skillsData = [
   },
   {
     id: 2,
-    name: "MySQL",
+    name: "My-SQL",
     category: "Database",
     certificateUrl: "https://www.hackerrank.com/certificates/44ab78483497", // Add your certificate link here
   },
