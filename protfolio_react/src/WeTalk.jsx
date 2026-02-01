@@ -118,9 +118,9 @@ export default function WeTalk() {
       if (bestMatch && highestScore > 0) {
         streamReply(bestMatch.reply());
       } else if (/\b(hi|hello|hey)\b/.test(lower)) {
-        streamReply("Hello! 😊 Ready to explore Soumya's work? Ask me about his projects or skills!");
+        streamReply("Hello Everyone! 😊 Ready to explore Soumya's work? Ask me about his projects or skills!");
       } else {
-        streamReply("That's an interesting question! While I'm still learning, I'm best at answering questions about Soumya's professional background, coding skills, and projects. What would you like to see?");
+        streamReply("That's an interesting question!!! While I'm still learning, I'm best at answering questions about Soumya's professional background, coding skills, and projects. What would you like to see?");
       }
     }, 500); // Artificial delay to feel more like "AI"
   };
