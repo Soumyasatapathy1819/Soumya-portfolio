@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { contactsData } from "./contactsData"; 
 import { projectsData } from "./projectsData";
 import { skillsData } from "./skillsData";
-import myPhoto from "./assets/my_photo.jpeg"; 
+import myPhoto from "../assets/my_photo.jpeg"; 
 import WeTalk from "./WeTalk";
 import LoadingScreen from "./LoadingScreen";
 import Gallery from "./Gallery"; // Correctly imported
