@@ -7,7 +7,7 @@ export const contactsData = [
   },
   {
     id: "instagram",
-    url: "https://www.instagram.com/soumya_satapathy_/",
+    url: "https://www.instagram.com/soumya_satapathy_49?igsh=MXI4MHNzdHM5a2kyag==",
     iconName: "instagram"
   },
   {
